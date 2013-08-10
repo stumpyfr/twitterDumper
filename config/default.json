@@ -1,0 +1,15 @@
+ /* Twitter API parameters
+   *
+   * keys for the stream API
+   */
+  {
+    "Twitter": {
+      "consumer_key": "CONSUMERKEY",
+      "consumer_secret": "CONSUMERSECRET",
+      "access_token": "TOKEN",
+      "access_token_secret": "TOKENSECRET"
+    },
+    "MongoDB": {
+    	       "host": "mongodb://localhost/test"
+    }
+  }

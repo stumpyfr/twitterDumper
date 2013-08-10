@@ -1,0 +1,30 @@
+{
+  "name": "twitterDumper",
+  "version": "0.0.1",
+  "description": "Dump twitter from the stream api and dump data in database, files, anything with connectors",
+  "main": "dumper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stumpyfr/twitterDumper.git"
+  },
+  "keywords": [
+    "twitter",
+    "dump",
+    "stream",
+    "api",
+    "mongoDB"
+  ],
+  "author": "Niels Freier",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "c31d5f90634f6a88eb095261b3cc26181ed06b09",
+  "dependencies": {
+    "mongoose": "~3.6.16",
+    "async": "~0.2.9",
+    "twit": "~1.1.8",
+    "config": "~0.4.29"
+  }
+}
