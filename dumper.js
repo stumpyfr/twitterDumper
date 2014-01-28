@@ -9,7 +9,8 @@ var T = new Twit({
     });
 
 var connectors = [
-		  require('./connectors/mongoDB'),
+    require('./connectors/mongoDB'),
+    require('./connectors/csv'),
 ];
 
 run();
@@ -29,5 +30,7 @@ function run() {
 }
 
 function listen(tweet) {
-    connectors[0].save(tweet);
+    connectors.forEach(function (c) {
+	c.save(tweet);
+    });
 }
