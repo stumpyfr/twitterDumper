@@ -22,7 +22,7 @@
   "readmeFilename": "README.md",
   "gitHead": "c31d5f90634f6a88eb095261b3cc26181ed06b09",
   "dependencies": {
-    "mongoose": "~3.6.16",
+    "mongoose": "~5.7.8",
     "async": "~0.2.9",
     "twit": "~1.1.8",
     "config": "~0.4.29"
